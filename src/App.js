@@ -20,6 +20,7 @@ class App extends React.Component {
     return (
       <div className='App'>
         <header className='App-header'>
+          <h3>Lifecycle updates shown in Console Log (CTRL+SHIFT+I)</h3>
           <img src={logo} className='App-logo' alt='logo' />
           <button
             onClick={() =>
